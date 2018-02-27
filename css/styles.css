@@ -121,8 +121,8 @@ header>.container .row {
 
 /* Navigation Bar Styles */
 
-nav>.nav-wrapper {
-  background-color: #f5f5f8;
+nav {
+  background-color: #f5f5f8 !important;
 }
 
 ul.hide-on-med-and-down>li a {
