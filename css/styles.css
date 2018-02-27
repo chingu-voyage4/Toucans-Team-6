@@ -41,51 +41,82 @@ header>.container .row {
   margin: 0;
 }
 
-.socialLinks div>li a i {
-  color: #000;
+.socialLinks li {
+  display: inline-block;
+  width: auto;
 }
 
-.socialLinks div {
-  border-bottom: 5px solid transparent;
+.socialLinks i {
+  color: #fff;
+  background-color: #efeff4;
+  margin: 3.5px;
+  padding: 10px 0;
+  font-size: 1.5em;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
   text-align: center;
-  font-size: 2em;
-  width: 50px;
 }
 
-.fbIcon:hover, .fbIcon:hover i {
-  color: #3d5c96;
-  border-color: #3d5c96;
-  transition: all, 0.5s;
+.fbIcon {
+  color: #3d5c96 !important;
 }
 
-.twIcon:hover, .twIcon:hover i {
-  color: #3bacd3;
-  border-color: #3bacd3;
-  transition: all, 0.5s;
+.fbIcon:hover, .fbIcon:focus {
+  color: #fff !important;
+  background-color: #3d5c96;
+  transition: all, ease-in-out 0.3s;
 }
 
-.pnIcon:hover, .pnIcon:hover i {
-  color: #c4232f;
-  border-color: #c4232f;
-  transition: all, 0.5s;
+.twIcon {
+  color: #3bacd3 !important;
 }
 
-.insIcon:hover, .insIcon:hover i {
-  color: #2e5a89;
-  border-color: #2e5a89;
-  transition: all, 0.5s;
+.twIcon:hover, .twIcon:focus {
+  color: #fff !important;
+  background-color: #3bacd3;
+  transition: all, ease-in-out 0.3s;
 }
 
-.gplusIcon:hover, .gplusIcon:hover i {
-  color: #de4b39;
-  border-color: #de4b39;
-  transition: all, 0.5s;
+.pnIcon {
+  color: #c4232f !important;
 }
 
-.nwsIcon:hover, .nwsIcon:hover i {
-  color: #7f7f8f;
-  border-color: #7f7f8f;
-  transition: all, 0.5s;
+.pnIcon:hover, .pnIcon:focus {
+  color: #fff !important;
+  background-color: #c4232f;
+  transition: all, ease-in-out 0.3s;
+}
+
+.insIcon {
+  color: #2e5a89 !important;
+}
+
+.insIcon:hover, .insIcon:focus {
+  color: #fff !important;
+  background-color: #2e5a89;
+  transition: all, ease-in-out 0.3s;
+}
+
+.gplusIcon {
+  color: #de4b39 !important;
+}
+
+.gplusIcon:hover, .gplusIcon:focus {
+  color: #fff !important;
+  background-color: #de4b39;
+  transition: all, ease-in-out 0.3s;
+}
+
+.nwsIcon {
+  color: #7f7f8f !important;
+}
+
+.nwsIcon:hover, .nwsIcon:focus {
+  color: #fff !important;
+  background-color: #7f7f8f;
+  transition: all, ease-in-out 0.3s;
 }
 
 /* Navigation Bar Styles */
