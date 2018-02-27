@@ -42,8 +42,12 @@ header.row {
   font-size: 1.5em;
 }
 
-/* Navigation Bar Stles */
+/* Navigation Bar Styles */
 
 nav>.nav-wrapper {
   background-color: #eceff1;
+}
+
+ul.hide-on-med-and-down > li a {
+  color: #000;
 }
