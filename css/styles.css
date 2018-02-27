@@ -1,0 +1,49 @@
+/* Google fonts for Audiowide & Crimson Fonts */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Crimson+Text');
+
+/* Header Styles */
+
+header.row {
+  margin: 0;
+}
+
+/* Brand Name styles */
+
+.brand-name {
+  padding: 20px;
+}
+
+.brand-name>a.brand-logo {
+  font-family: 'Audiowide', cursive;
+  font-size: 2.5em;
+  color: #222;
+  height: 100%;
+}
+
+/* Social Media Stles */
+
+.social-panel {
+  padding: 20px;
+  float: right;
+}
+
+.socialLinks {
+  margin: 0;
+  height: 100%;
+}
+
+.socialLinks li {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.socialLinks li a i {
+  color: #000;
+  font-size: 1.5em;
+}
+
+/* Navigation Bar Stles */
+
+nav>.nav-wrapper {
+  background-color: #eceff1;
+}
