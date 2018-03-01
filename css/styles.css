@@ -1,0 +1,131 @@
+/* Google fonts for Audiowide & Crimson Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Crimson+Text');
+/* Miscellaneous Styles */
+
+body {
+  font-family: 'Crimson Text', serif;
+}
+
+.inline {
+  display: inline-block;
+}
+
+/* Header Styles */
+
+header>.container .row {
+  margin-bottom: 0;
+}
+
+/* Brand Name styles */
+
+.brand-name {
+  padding: 15px 0;
+}
+
+.brand-name>.brand-logo {
+  font-family: 'Audiowide', cursive;
+  font-size: 2.5em;
+  color: #222;
+  height: 100%;
+}
+
+/* Social Media Stles */
+
+.social-panel {
+  padding: 20px 0;
+  float: right;
+}
+
+.socialLinks {
+  margin: 0;
+}
+
+.socialLinks li {
+  display: inline-block;
+  width: auto;
+}
+
+.socialLinks i {
+  color: #fff;
+  background-color: #efeff4;
+  margin: 3.5px;
+  padding: 10px 0;
+  font-size: 1.5em;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.fbIcon {
+  color: #3d5c96 !important;
+}
+
+.fbIcon:hover, .fbIcon:focus {
+  color: #fff !important;
+  background-color: #3d5c96;
+  transition: all, ease-in-out 0.3s;
+}
+
+.twIcon {
+  color: #3bacd3 !important;
+}
+
+.twIcon:hover, .twIcon:focus {
+  color: #fff !important;
+  background-color: #3bacd3;
+  transition: all, ease-in-out 0.3s;
+}
+
+.pnIcon {
+  color: #c4232f !important;
+}
+
+.pnIcon:hover, .pnIcon:focus {
+  color: #fff !important;
+  background-color: #c4232f;
+  transition: all, ease-in-out 0.3s;
+}
+
+.insIcon {
+  color: #2e5a89 !important;
+}
+
+.insIcon:hover, .insIcon:focus {
+  color: #fff !important;
+  background-color: #2e5a89;
+  transition: all, ease-in-out 0.3s;
+}
+
+.gplusIcon {
+  color: #de4b39 !important;
+}
+
+.gplusIcon:hover, .gplusIcon:focus {
+  color: #fff !important;
+  background-color: #de4b39;
+  transition: all, ease-in-out 0.3s;
+}
+
+.nwsIcon {
+  color: #7f7f8f !important;
+}
+
+.nwsIcon:hover, .nwsIcon:focus {
+  color: #fff !important;
+  background-color: #7f7f8f;
+  transition: all, ease-in-out 0.3s;
+}
+
+/* Navigation Bar Styles */
+
+nav {
+  background-color: #f5f5f8 !important;
+}
+
+ul.hide-on-med-and-down>li a {
+  color: #000;
+  font-size: 18.5px;
+}
