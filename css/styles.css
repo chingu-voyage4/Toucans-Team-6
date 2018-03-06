@@ -11,13 +11,17 @@ body {
   display: inline-block;
 }
 
+.padding {
+  padding: 3em 1em;
+}
+
 /* Header Styles */
 
 header>.container .row {
   margin-bottom: 0;
 }
 
-/* Brand Name styles */
+/* Brand Name Styles */
 
 .brand-name {
   padding: 15px 0;
@@ -30,7 +34,7 @@ header>.container .row {
   height: 100%;
 }
 
-/* Social Media Stles */
+/* Social Media Styles */
 
 .social-panel {
   padding: 20px 0;
@@ -55,6 +59,32 @@ header>.container .row {
   color: #fff;
   height: 40px;
   width: 40px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+#follow-us {
+  background-color: lightgray;
+}
+
+.socialLinks2 {
+  margin: auto;
+}
+
+.socialLinks2 li {
+  display: inline-block;
+  margin: 2em;
+}
+
+.socialLinks2 i {
+  color: #fff;
+  background-color: #efeff4;
+  margin: 3.5px;
+  padding: 12px 0;
+  font-size: 2.5em;
+  color: #fff;
+  height: 60px;
+  width: 60px;
   border-radius: 40px;
   text-align: center;
 }
