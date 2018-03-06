@@ -63,32 +63,6 @@ header>.container .row {
   text-align: center;
 }
 
-#follow-us {
-  background-color: lightgray;
-}
-
-.socialLinks2 {
-  margin: auto;
-}
-
-.socialLinks2 li {
-  display: inline-block;
-  margin: 2em;
-}
-
-.socialLinks2 i {
-  color: #fff;
-  background-color: #efeff4;
-  margin: 3.5px;
-  padding: 12px 0;
-  font-size: 2.5em;
-  color: #fff;
-  height: 60px;
-  width: 60px;
-  border-radius: 40px;
-  text-align: center;
-}
-
 .fbIcon {
   color: #3d5c96 !important;
 }
