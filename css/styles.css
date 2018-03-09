@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Crimson+Text');
 /* Miscellaneous Styles */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Crimson Text', serif;
 }
