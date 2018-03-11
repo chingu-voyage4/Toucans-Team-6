@@ -19,6 +19,17 @@ body {
   padding: 3em 1em;
 }
 
+.responsive {
+  width: 100%;
+}
+
+.responsive > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  padding: 2px 0;
+}
+
 /* Header Styles */
 
 header>.container .row {
@@ -136,4 +147,16 @@ nav {
 ul.hide-on-med-and-down>li a {
   color: #000;
   font-size: 18.5px;
+}
+
+/* Image Styles */
+
+.img-container {
+  width: 33%;
+  max-height: 300px;
+}
+img {
+  object-fit: cover;
+  /* height: 100%; */
+  width: 100%;
 }
