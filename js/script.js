@@ -1,2 +1,2 @@
-// Intiallizes Side Navigation
+// Initializes Side Navigation
 $(".button-collapse").sideNav();
