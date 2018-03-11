@@ -143,17 +143,17 @@ ul.hide-on-med-and-down>li a {
 
 .e {
   grid-column: 2;
-grid-row: 1;
+  grid-row: 1;
 }
 
 .f {
   grid-column: 2;
-grid-row: 2;
+  grid-row: 2;
 }
 
 .g {
   grid-column: 3;
-grid-row: 2;
+  grid-row: 2;
 }
 
 .h {
