@@ -157,6 +157,22 @@ ul.hide-on-med-and-down>li a {
 }
 img {
   object-fit: cover;
-  /* height: 100%; */
   width: 100%;
+}
+
+/* Horizontal Lines */
+
+.hr-lines {
+  position: relative;
+  border: 0;
+  border-top: 1px solid #000;
+  padding: 1.5em 0;
+}
+
+.hr-lines .absolute {
+  position: absolute;
+  top: -40px;
+  left: 22.5%;
+  background-color: white;
+  padding: 0 10px;
 }
