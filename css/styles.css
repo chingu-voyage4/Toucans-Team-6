@@ -201,6 +201,56 @@ grid-row: 3 ;
   margin-top: 20px;
 }
 
-.header {
- clear: both;
+/* Deals of the week */
+
+.wrapper2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 250px 310px 310px;
+  background-color: #fff;
+  color: #444;
+  padding-top: 10px;
+}
+
+.e {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.f {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.g {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.h {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.heading1 {
+  text-align:center;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.hr3 {
+  width: 370px;
+  float: left;
+  margin-top: 20px;
+}
+
+.hr4 {
+  width: 200px;
+  float: right;
+  margin-top: 20px;
+}
+
+.header1 {
+  clear: both;
 }
