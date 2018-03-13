@@ -156,7 +156,7 @@ ul.hide-on-med-and-down>li a {
   max-height: 300px;
 }
 
-img {
+.img {
   object-fit: cover;
   width: 100%;
 }
