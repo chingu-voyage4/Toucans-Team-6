@@ -155,9 +155,135 @@ ul.hide-on-med-and-down>li a {
   width: 33%;
   max-height: 300px;
 }
+
 img {
   object-fit: cover;
   width: 100%;
+}
+
+/* Featured Destination */
+
+.wrapper1 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 110px 0 150px 620px;
+  background-color: #fff;
+  color: #444;
+  padding-top: 30px;
+}
+
+.box p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.a {
+  grid-column: 1 / span 2;
+}
+
+.at{
+  grid-column: 2 / span 0;
+}
+
+.b {
+  grid-column: 4 / span 1;
+grid-row: 1 / span 3;
+  padding-left: 10px;
+}
+
+.b>h4 {
+  font-size: 1.9rem;
+}
+
+.heading {
+  margin-top: -15px;
+  padding-top: -0px;
+}
+
+.c {
+grid-column: 1 / span 2 ;
+grid-row: 2 ;
+}
+
+.ct{
+  grid-column: 2 / span 0;
+}
+
+.d {
+grid-column: 1 / span 2;
+grid-row: 3 ;
+}
+
+.dt {
+  grid-column: 2 / span 0;
+}
+
+.hr1 {
+  width: 160px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.hr2 {
+  width: 120px;
+  float: right;
+  margin-top: 20px;
+}
+
+/* Deals of the week */
+
+.wrapper2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 250px 310px 310px;
+  background-color: #fff;
+  color: #444;
+  padding-top: 10px;
+}
+
+.e {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.f {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.g {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.h {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.heading1 {
+  text-align:center;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.hr3 {
+  width: 370px;
+  float: left;
+  margin-top: 20px;
+}
+
+.hr4 {
+  width: 200px;
+  float: right;
+  margin-top: 20px;
+}
+
+.header1 {
+  clear: both;
 }
 
 /* Horizontal Lines */
