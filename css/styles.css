@@ -15,6 +15,10 @@ body {
   display: inline-block;
 }
 
+.text-align-left {
+  text-align: left;
+}
+
 .padding {
   padding: 3em 1em;
 }
@@ -36,6 +40,21 @@ header>.container .row {
   margin-bottom: 0;
 }
 
+.footer-link-heading {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #1d1d1d;
+}
+
+/* Paragraph Styling */
+
+.p-bottom {
+  color: #1d1d1d;
+  font-size: 1.2em;
+  margin-top: -20px;
+}
+
+
 /* Brand Name Styles */
 
 .brand-name {
@@ -47,6 +66,8 @@ header>.container .row {
   font-size: 2.5em;
   color: #222;
   height: 100%;
+  font-weight: 700;
+  line-height: 1.7143;
 }
 
 /* Social Media Styles */
@@ -74,6 +95,33 @@ header>.container .row {
   color: #fff;
   height: 40px;
   width: 40px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+#follow-us {
+  background-color: #efeff4;
+  height: 150px;
+}
+
+.socialLinks2 {
+  margin: auto;
+}
+
+.socialLinks2 li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.socialLinks2 i {
+  color: #fff;
+  background-color: white;
+  margin: 3px;
+  padding: 12px 0;
+  font-size: 2.3em;
+  color: #fff;
+  height: 60px;
+  width: 60px;
   border-radius: 40px;
   text-align: center;
 }
@@ -301,4 +349,20 @@ grid-row: 3 ;
   left: 22.5%;
   background-color: white;
   padding: 0 10px;
+}
+
+
+/* Link Styles */
+
+.col a {
+  text-decoration: none;
+  color: #1d1d1d;
+  font-size: 1.2em;
+}
+
+/* List Styling */
+
+.col li  {
+  line-height: 1;
+  padding: 5px 0;
 }
