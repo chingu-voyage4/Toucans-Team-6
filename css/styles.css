@@ -54,6 +54,15 @@ header>.container .row {
   margin-top: -20px;
 }
 
+/* Div Styling */
+
+div.spacing {
+  padding: 1em 0;
+}
+
+div.copyright {
+  padding-bottom: 1.5em;
+}
 
 /* Brand Name Styles */
 
