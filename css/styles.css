@@ -46,6 +46,11 @@ header>.container .row {
   color: #1d1d1d;
 }
 
+.header {
+  padding-left: 1.8em;
+  padding-right: 1.5em;
+}
+
 /* Paragraph Styling */
 
 .p-bottom {
@@ -110,7 +115,7 @@ div.copyright {
 
 #follow-us {
   background-color: #efeff4;
-  height: 150px;
+  height: 170px;
 }
 
 .socialLinks2 {
@@ -358,6 +363,18 @@ grid-row: 3 ;
   left: 22.5%;
   background-color: white;
   padding: 0 10px;
+}
+
+.hr-left {
+  float: left;
+  width: 40%;
+  margin-top: 2.3em;
+}
+
+.hr-right {
+  float: right;
+  width: 40%;
+  margin-top: 2.3em;
 }
 
 
