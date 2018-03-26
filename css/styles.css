@@ -39,12 +39,14 @@ img.featDes {
 }
 
 figure {
-  margin:0;
+  margin: 0;
 }
+
 .cancelExtras {
   margin: 0;
   padding: 0;
 }
+
 /* Header Styles */
 
 header>.container .row {
@@ -255,6 +257,7 @@ p {
   position: relative;
   margin: 0;
 }
+
 .heading::before {
   right: 100%;
   margin-right: 11px;
@@ -265,19 +268,36 @@ p {
   margin-left: 11px;
 }
 
-.heading:before, .heading:after{
+.heading:before, .heading:after {
   content: "";
   position: absolute;
   height: 5px;
-  border-top: 1px solid #000;
+  border-top: 1px solid #ccc;
   top: 50%;
   width: 800px;
 }
 
-/* Deals of the week */
+/* Clime Every Mountain */
 
+.chip {
+  padding-top: 10px;
+}
 
+.card-header p {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
 
+.card-info p {
+  color: #777;
+  line-height: 1.3;
+}
+
+.chipTag {
+  color: #3eaaba !important;
+}
+
+/* Deals Of The Week */
 
 /* Horizontal Lines */
 
