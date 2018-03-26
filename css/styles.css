@@ -27,13 +27,24 @@ body {
   width: 100%;
 }
 
-.responsive > div {
+.responsive>div {
   display: flex;
   justify-content: space-between;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   padding: 2px 0;
 }
 
+img.featDes {
+  width: 100%;
+}
+
+figure {
+  margin:0;
+}
+.cancelExtras {
+  margin: 0;
+  padding: 0;
+}
 /* Header Styles */
 
 header>.container .row {
@@ -49,6 +60,9 @@ header>.container .row {
 .header {
   padding-left: 1.8em;
   padding-right: 1.5em;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  overflow: hidden;
 }
 
 /* Paragraph Styling */
@@ -226,128 +240,44 @@ ul.hide-on-med-and-down>li a {
 
 /* Featured Destination */
 
-.wrapper1 {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 110px 0 150px 620px;
-  background-color: #fff;
-  color: #444;
-  padding-top: 30px;
-}
-
-.box p {
+p {
   margin: 0;
   font-size: 1.1rem;
   line-height: 1.5;
 }
 
-.a {
-  grid-column: 1 / span 2;
-}
-
-.at{
-  grid-column: 2 / span 0;
-}
-
-.b {
-  grid-column: 4 / span 1;
-grid-row: 1 / span 3;
-  padding-left: 10px;
-}
-
-.b>h4 {
-  font-size: 1.9rem;
-}
-
 .heading {
-  margin-top: -15px;
+  font-size: 1.9em;
   padding-top: -0px;
+  display: inline-block;
+  float: none;
+  font-weight: 400;
+  position: relative;
+  margin: 0;
+}
+.heading::before {
+  right: 100%;
+  margin-right: 11px;
 }
 
-.c {
-grid-column: 1 / span 2 ;
-grid-row: 2 ;
+.heading::after {
+  left: 100%;
+  margin-left: 11px;
 }
 
-.ct{
-  grid-column: 2 / span 0;
-}
-
-.d {
-grid-column: 1 / span 2;
-grid-row: 3 ;
-}
-
-.dt {
-  grid-column: 2 / span 0;
-}
-
-.hr1 {
-  width: 160px;
-  float: left;
-  margin-top: 20px;
-  margin-left: 40px;
-}
-
-.hr2 {
-  width: 120px;
-  float: right;
-  margin-top: 20px;
+.heading:before, .heading:after{
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid #000;
+  top: 50%;
+  width: 800px;
 }
 
 /* Deals of the week */
 
-.wrapper2 {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 250px 310px 310px;
-  background-color: #fff;
-  color: #444;
-  padding-top: 10px;
-}
 
-.e {
-  grid-column: 2;
-  grid-row: 1;
-}
 
-.f {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.g {
-  grid-column: 3;
-  grid-row: 2;
-}
-
-.h {
-  grid-column: 4;
-  grid-row: 2;
-}
-
-.heading1 {
-  text-align:center;
-  margin-top: 10px;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-
-.hr3 {
-  width: 370px;
-  float: left;
-  margin-top: 20px;
-}
-
-.hr4 {
-  width: 200px;
-  float: right;
-  margin-top: 20px;
-}
-
-.header1 {
-  clear: both;
-}
 
 /* Horizontal Lines */
 
@@ -378,7 +308,6 @@ grid-row: 3 ;
   margin-top: 2.3em;
 }
 
-
 /* Link Styles */
 
 .col a {
@@ -389,7 +318,7 @@ grid-row: 3 ;
 
 /* List Styling */
 
-.col li  {
+.col li {
   line-height: 1;
   padding: 5px 0;
 }
