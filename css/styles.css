@@ -69,6 +69,11 @@ header>.container .row {
   overflow: hidden;
 }
 
+.heading-top-bottom {
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
 /* Carousel and Cards */
 
 .cards-p-top {
