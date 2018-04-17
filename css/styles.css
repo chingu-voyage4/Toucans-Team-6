@@ -549,32 +549,70 @@ input[type=search]:not(.browser-default) {
   border: 1px solid #9e9e9e;
 }
 
-.hr-lines .absolute {
-  position: absolute;
-  top: -40px;
-  left: 22.5%;
-  background-color: white;
-  padding: 0 10px;
+/* Explore Sites (just before the copyright area) */
+
+.explore-sites-links {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
-.hr-left {
-  float: left;
-  width: 40%;
-  margin-top: 2.3em;
+.explore-sites-links a {
+  color: #000;
 }
 
-.hr-right {
-  float: right;
-  width: 40%;
-  margin-top: 2.3em;
+.explore-sites-links li {
+  font-size: 1.5em;
+  display: inline;
+  font-weight: bold;
 }
 
-/* Link Styles */
+.goodfood-icon, .food-text {
+  color: darkkhaki;
+}
 
-.col a {
-  text-decoration: none;
-  color: #1d1d1d;
+.essentialbaby-icon, .baby-text {
+  color: goldenrod;
+}
+
+.baby-text {
+  font-style: italic;
+}
+
+.essentialkids-icon {
+  color: darksalmon;
+}
+
+.kids-text {
+  font-style: italic;
+  color: cornflowerblue;
+}
+
+.babysitter-text {
+  color: blueviolet;
+  font-style: italic;
+  font-size: 1.15em;
+}
+
+.grayed-text {
+  color: slategray;
+}
+
+.openair-express-li {
+  line-height: 1;
+}
+
+.openair-express-li .markovian-express-text {
+  font-size: 0.5em;
+}
+
+.openair-express-li .openair-text {
   font-size: 1.2em;
+  font-weight: 900;
+}
+
 }
 
 /* List Styling */
