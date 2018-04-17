@@ -19,12 +19,14 @@ body {
   text-align: left;
 }
 
-.padding {
-  padding: 3em 1em;
+.p-top-bottom {
+  padding-top: 1.5em;
+  /* padding-bottom: 1.5em; */
 }
 
-.responsive {
-  width: 100%;
+.pl-mt {
+  padding-left: 0.8em;
+  margin-top: -0.8em;
 }
 
 .responsive>div {
