@@ -229,12 +229,13 @@ header>.container .row {
 
 /* Div Styling */
 
-div.spacing {
+.spacing {
   padding: 1em 0;
 }
 
-div.copyright {
+.copyright {
   padding-bottom: 1.5em;
+  text-align: center;
 }
 
 /* Brand Name Styles */
