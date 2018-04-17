@@ -1,6 +1,7 @@
 /* Google fonts for Audiowide & Crimson Fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Crimson+Text');
+
 /* Miscellaneous Styles */
 
 * {
@@ -27,21 +28,6 @@ body {
 .pl-mt {
   padding-left: 0.8em;
   margin-top: -0.8em;
-}
-
-.responsive>div {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 2px 0;
-}
-
-img.featDes {
-  width: 100%;
-}
-
-figure {
-  margin: 0;
 }
 
 .cancelExtras {
@@ -464,7 +450,7 @@ p {
   width: 800px;
 }
 
-/* Clime Every Mountain */
+/* Climb Every Mountain */
 
 .chip {
   padding-top: 10px;
@@ -622,52 +608,6 @@ input[type=search]:not(.browser-default) {
 
   .pb-on-smaller-screen {
     margin-bottom: 20px;
-}
-
-  .socialLinks2 .socialIcon-container {
-    display: grid;
-    grid-template-columns: repeat(6, 2fr);
-    margin-top: 10px;
-    margin-bottom: 20px;
-    justify-items: center;
-  }
-
-  .socialLinks2 i {
-    font-size: 1.7em;
-    margin: 3px;
-    padding: 11px 0;
-    height: 45px;
-    width: 45px;
-  }
-
-  .TM-links {
-    width: 100%;
-  }
-}
-
-
-@media all and (max-width: 800px) {
-  .img-container img {
-    height: 170px;
-  }
-
-  #panel  {
-    top: 3.5%;
-    left: 60.5%;
-    height: 23em;
-    width: 17em;
-  }
-
-  .panel-heading {
-    font-size: 1.6em;
-  }
-
-  .popular-exp {
-    padding: 9px 1.5em 1.1em 1.8em;
-  }
-
-  .pb-on-smaller-screen {
-    margin-bottom: 20px;
   }
 
   .socialLinks2 .socialIcon-container {
@@ -681,15 +621,6 @@ input[type=search]:not(.browser-default) {
   .socialLinks2 i {
     font-size: 1.7em;
     margin: 3px;
-    padding: 11px 0;
-    height: 45px;
-    width: 45px;
-  }
-
-  .TM-links {
-    width: 100%;
-    margin-left: -25px;
-}
     padding: 11px 0;
     height: 45px;
     width: 45px;
