@@ -393,16 +393,38 @@ ul.hide-on-med-and-down>li a {
   font-size: 18.5px;
 }
 
-/* Image Styles */
+/* Styles for Images and Figures */
 
-.img-container {
-  width: 33%;
-  max-height: 300px;
+.responsive {
+  width: 100%;
 }
 
-.img {
+.responsive > div {
+  display: flex;
+  margin-bottom: -2px;
+}
+
+.responsive > div > div:nth-child(1),
+.responsive > div > div:nth-child(2) {
+  padding-right: 4px;
+}
+
+.img-container {
+  flex: 1 1 33%;
+}
+
+.img-container img {
+  height: 310px;
   object-fit: cover;
   width: 100%;
+}
+
+img.featDes {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 /* Featured Destination */
