@@ -601,7 +601,7 @@ input[type=search]:not(.browser-default) {
 
 /* Media Queries */
 
-@media all and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
   .img-container img {
     height: 80px;
   }
@@ -631,8 +631,7 @@ input[type=search]:not(.browser-default) {
   }
 }
 
-
-@media all and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .img-container img {
     height: 170px;
   }
