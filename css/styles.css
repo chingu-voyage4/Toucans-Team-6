@@ -773,6 +773,34 @@ input[type=search]:not(.browser-default) {
     height: 170px;
   }
 
+  #carousel {
+		border: none;
+		width: var(--small_width);
+		height: 0;
+		padding-bottom: var(--small_height);
+    }
+
+    .slide_img .prev, .slide_img .next {
+        width: var(--small_nav_width);
+    }
+
+    .slide_img .prev span, .slide_img .next span {
+        border: solid 12px;
+    }
+
+    .slide_img .prev span {
+        border-color: transparent #fff transparent transparent;
+    }
+
+    .slide_img .next span {
+        border-color: transparent transparent transparent #fff;
+    }
+
+    #nav_slide .dots {
+        width: 12px;
+        height: 12px;
+    }
+
   #panel  {
     top: 3.5%;
     left: 60.5%;
