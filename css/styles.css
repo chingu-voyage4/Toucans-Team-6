@@ -116,8 +116,6 @@ input {
   width: inherit;
   height: inherit;
   min-width: 100%;
-  /* max-height: 25em; */
-  /* margin-top: -20px; */
 }
 
 .slide_img .prev, .slide_img .next {
@@ -282,6 +280,7 @@ animation: scroll 1s ease-in-out;
 
 .search-box {
   position: relative;
+  margin-bottom: 2.5em;
 }
 
 .search-icon {
@@ -350,14 +349,6 @@ animation: scroll 1s ease-in-out;
 #panel .panel-icons i.child-icon:hover,
 #panel .panel-icons i.landscape-icon:hover {
   color: #fff;
-}
-
-/* Paragraph Styling */
-
-.explore-sites-paragraph {
-  color: #1d1d1d;
-  font-size: 1.2em;
-  margin-top: -20px;
 }
 
 /* Div Styling */
@@ -679,6 +670,12 @@ input[type=search]:not(.browser-default) {
 
 /* Explore Sites (just before the copyright area) */
 
+.explore-sites-paragraph {
+  color: #1d1d1d;
+  font-size: 1.2em;
+  margin-top: -20px;
+}
+
 .explore-sites-links {
   text-align: center;
   display: flex;
@@ -776,7 +773,6 @@ input[type=search]:not(.browser-default) {
 
   #carousel {
 		border: none;
-		width: var(--small_width);
 		height: 0;
 		padding-bottom: var(--slider-height-sm);
     }
@@ -784,6 +780,9 @@ input[type=search]:not(.browser-default) {
     .slide_img .prev, .slide_img .next {
         width: var(--nav-width-sm);
     }
+
+    .slide_img .next {
+      right: 39.5%;
     }
 
     .slide_img .prev span, .slide_img .next span {
@@ -838,9 +837,14 @@ input[type=search]:not(.browser-default) {
   .TM-links {
     width: 100%;
     margin-left: -25px;
+    font-size: 0.9em;
+  }
+
+  .explore-sites-paragraph {
+    font-size: 1.355em;
   }
 
   .explore-sites-links li {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 }
