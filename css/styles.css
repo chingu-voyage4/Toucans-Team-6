@@ -287,8 +287,8 @@ animation: scroll 1s ease-in-out;
 }
 
 .panel-icons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -431,11 +431,10 @@ animation: scroll 1s ease-in-out;
 }
 
 .socialLinks2 .socialIcon-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  display: flex;
   margin-top: 10px;
   margin-bottom: 20px;
-  justify-items: center;
+  justify-content: space-between;
 }
 
 .socialLinks2 .socialIcon-container div {
@@ -681,9 +680,8 @@ input[type=search]:not(.browser-default) {
 
 .explore-sites-links {
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -753,11 +751,8 @@ input[type=search]:not(.browser-default) {
   }
 
   .socialLinks2 .socialIcon-container {
-    display: grid;
-    grid-template-columns: repeat(6, 2fr);
-    margin-top: 10px;
-    margin-bottom: 20px;
-    justify-items: center;
+    display: flex;
+    justify-content: space-between;
   }
 
   .socialLinks2 i {
@@ -798,11 +793,8 @@ input[type=search]:not(.browser-default) {
   }
 
   .socialLinks2 .socialIcon-container {
-    display: grid;
-    grid-template-columns: repeat(6, 2fr);
-    margin-top: 10px;
-    margin-bottom: 20px;
-    justify-items: center;
+    display: flex;
+    justify-content: space-between;
   }
 
   .socialLinks2 i {
