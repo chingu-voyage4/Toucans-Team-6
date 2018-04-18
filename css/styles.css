@@ -31,6 +31,13 @@ body {
   font-family: 'Crimson Text', serif;
 }
 
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow-X: hidden;
+}
+
 .inline {
   display: inline-block;
 }
@@ -246,7 +253,7 @@ animation: scroll 1s ease-in-out;
 
 .popular-exp {
   font-size: 1.3em;
-  padding: 9px 1.5em 0.5em 1.8em;
+  padding: 9px 1.5em 0.88em 1.8em;
 }
 
 .panel-heading::before,
@@ -349,7 +356,7 @@ animation: scroll 1s ease-in-out;
 
 /* Paragraph Styling */
 
-.p-bottom {
+.explore-sites-paragraph {
   color: #1d1d1d;
   font-size: 1.2em;
   margin-top: -20px;
@@ -548,10 +555,6 @@ ul.hide-on-med-and-down>li a {
 
 img.featDes {
   width: 100%;
-}
-
-figure {
-  margin: 0;
 }
 
 /* Featured Destination */
