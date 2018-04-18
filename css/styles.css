@@ -2,6 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Crimson+Text');
 
+/* Variable Declarations */
+
+:root {
+  --big_height: 40.5%; 		/* Slider height - large display */
+  --big_nav_width: 6%;	 /* Previous and Next width - large display */
+  
+  --small_width: 100%; 	/* Slider width - small display */
+  --small_height: 55%; 	/* Slider height - small display */
+  --small_nav_width: 15%;  /* Previous and Next width - small display */
+  
+  --box-shadow: 0 11px 22px rgba(0, 0, 0, 0.20), 0 7px 7px rgba(0, 0, 0, 0.24);
+  --brown: #795548;
+  --blue: #2196F3;
+  --green: #4CAF50;
+  --magenta: #F44336;
+  --nav_color: rgba(255, 82, 82, .2);
+  --nav_hover_color: rgba(255, 82, 82, .8);
+}
+
 /* Miscellaneous Styles */
 
 * {
