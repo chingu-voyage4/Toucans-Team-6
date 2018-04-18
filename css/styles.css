@@ -5,20 +5,18 @@
 /* Variable Declarations */
 
 :root {
-  --big_height: 40.5%; 		/* Slider height - large display */
-  --big_nav_width: 6%;	 /* Previous and Next width - large display */
-  
-  --small_width: 100%; 	/* Slider width - small display */
-  --small_height: 55%; 	/* Slider height - small display */
-  --small_nav_width: 15%;  /* Previous and Next width - small display */
+  --slider-height-lg: 40.5%;  /* Slider height - small display */
+  --slider-height-sm: 55%; 	/* Slider height - small display */
+  --nav-width-lg: 6%;	 /* Previous and Next width - large display */
+  --nav-width-sm: 7%;  /* Previous and Next width - small display */
   
   --box-shadow: 0 11px 22px rgba(0, 0, 0, 0.20), 0 7px 7px rgba(0, 0, 0, 0.24);
   --brown: #795548;
   --blue: #2196F3;
   --green: #4CAF50;
   --magenta: #F44336;
-  --nav_color: rgba(255, 82, 82, .2);
-  --nav_hover_color: rgba(255, 82, 82, .8);
+  --nav-color: rgba(255, 82, 82, .2);
+  --nav-hover-color: rgba(255, 82, 82, .8);
 }
 
 /* Miscellaneous Styles */
@@ -97,7 +95,7 @@ header>.container .row {
   margin: 0 auto;
 	margin-top: 0.2px;
 	height: 0;
-	padding-bottom: var(--big_height);
+	padding-bottom: var(--slider-height-lg);
 	user-select: none;
 	background-color: #1c1c1c;
 	box-shadow: var(--box-shadow);
@@ -123,12 +121,12 @@ input {
 }
 
 .slide_img .prev, .slide_img .next {
-  width: var(--big_nav_width);
+  width: var(--nav-width-lg);
   /* height: inherit; */
   height: 20%;
   position: absolute;
   top: 43%;
-  background-color: var(--nav_color);
+  background-color: var(--nav-color);
   z-index: 10;
   transition: .45s;
   cursor: pointer;
@@ -145,7 +143,7 @@ input {
 
 .slide_img .prev:hover, .slide_img .next:hover {
   transition: .3s;
-  background-color: var(--nav_hover_color);
+  background-color: var(--nav-hover-color);
 }
 
 .slide_img .prev span, .slide_img .next span {
@@ -780,11 +778,12 @@ input[type=search]:not(.browser-default) {
 		border: none;
 		width: var(--small_width);
 		height: 0;
-		padding-bottom: var(--small_height);
+		padding-bottom: var(--slider-height-sm);
     }
 
     .slide_img .prev, .slide_img .next {
-        width: var(--small_nav_width);
+        width: var(--nav-width-sm);
+    }
     }
 
     .slide_img .prev span, .slide_img .next span {
