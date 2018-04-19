@@ -98,10 +98,6 @@ header>.container .row {
   box-shadow: var(--box-shadow);
 }
 
-input {
-  display: none;
-}
-
 .slide_img {
   position: absolute;
   width: 100%;
