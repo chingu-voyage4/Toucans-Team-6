@@ -87,7 +87,7 @@ header>.container .row {
   padding-top: 2em;
 }
 
-#carousel {
+.carousel {
   position: relative;
   margin: 0 auto;
   margin-top: 0.2px;
@@ -755,7 +755,7 @@ input[type=search]:not(.browser-default) {
     height: 170px;
   }
 	
-  #carousel {
+  .carousel {
     border: none;
     height: 0;
     padding-bottom: var(--slider-height-sm);
