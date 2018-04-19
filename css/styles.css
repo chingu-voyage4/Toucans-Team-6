@@ -113,7 +113,6 @@ header>.container .row {
 
 .slide_img .prev, .slide_img .next {
   width: var(--nav-width-lg);
-  /* height: inherit; */
   height: 20%;
   position: absolute;
   top: 43%;
@@ -167,7 +166,6 @@ header>.container .row {
 }
 
 .dots {
-  /* top: 10%; */
   left: -15%;
   width: 9px;
   height: 9px;
