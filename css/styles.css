@@ -741,11 +741,6 @@ input[type=search]:not(.browser-default) {
     margin-bottom: 20px;
   }
 
-  .socialLinks2 .socialIcon-container {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .socialLinks2 i {
     font-size: 1.7em;
     margin: 3px;
@@ -812,11 +807,6 @@ input[type=search]:not(.browser-default) {
 
   .pb-on-smaller-screen {
     margin-bottom: 20px;
-  }
-
-  .socialLinks2 .socialIcon-container {
-    display: flex;
-    justify-content: space-between;
   }
 
   .socialLinks2 i {
