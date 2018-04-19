@@ -301,7 +301,55 @@ p {
 }
 
 /* Deals Of The Week */
-
+/* Where To Go This Month */
+.carousel {
+  height: 50%;
+}
+.row.where2Go {
+  height: 100%;
+}
+.cardPic {
+  padding: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.cardPic img {
+  width: 100%;
+  height: 100%;
+}
+.mar {
+  padding: 0;
+  height: auto;
+}
+.left-column {
+  display: inline-block;
+  border: 1px solid;
+  float: left;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+}
+.mid-column {
+  display: inline-block;
+  border: 1px solid;
+  height: 100%;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+.right-column {
+  display: inline-block;
+  border: 1px solid;
+  float: right;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+}
+.card-lead {
+  margin: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+}
 /* Horizontal Lines */
 
 .hr-lines {
