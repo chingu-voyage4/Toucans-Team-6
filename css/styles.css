@@ -211,7 +211,7 @@ animation: scroll 1s ease-in-out;
 100% { opacity: 1;}
 }
 
-#panel  {
+.panel {
   position: absolute;
   top: 6.5%;
   left: 68%;
@@ -298,31 +298,31 @@ animation: scroll 1s ease-in-out;
   border-radius: 50%;
 }
 
-#panel .panel-icons i.sunny-icon {
+.panel .panel-icons i.sunny-icon {
   color: goldenrod;
 }
 
-#panel .panel-icons i.sunny-icon:hover {
+.panel .panel-icons i.sunny-icon:hover {
   background-color: goldenrod;
 }
 
-#panel .panel-icons i.anchor-icon {
+.panel .panel-icons i.anchor-icon {
   color: tomato;
   padding-left: 0.43em;
   padding-right: 0.43em;
 }
 
-#panel .panel-icons i.anchor-icon:hover {
+.panel .panel-icons i.anchor-icon:hover {
   background-color: tomato;
 }
 
-#panel .panel-icons i.child-icon {
+.panel .panel-icons i.child-icon {
   color: violet;
   padding-left: 0.61em;
   padding-right: 0.61em;
 }
 
-#panel .panel-icons i.child-icon:hover {
+.panel .panel-icons i.child-icon:hover {
   background-color: violet;
 }
 
@@ -330,14 +330,14 @@ animation: scroll 1s ease-in-out;
   color: green;
 }
 
-#panel .panel-icons i.landscape-icon:hover {
+.panel .panel-icons i.landscape-icon:hover {
   background-color: green;
 }
 
-#panel .panel-icons i.sunny-icon:hover,
-#panel .panel-icons i.anchor-icon:hover,
-#panel .panel-icons i.child-icon:hover,
-#panel .panel-icons i.landscape-icon:hover {
+.panel .panel-icons i.sunny-icon:hover,
+.panel .panel-icons i.anchor-icon:hover,
+.panel .panel-icons i.child-icon:hover,
+.panel .panel-icons i.landscape-icon:hover {
   color: #fff;
 }
 
@@ -786,7 +786,7 @@ input[type=search]:not(.browser-default) {
     height: 12px;
   }
 
-  #panel  {
+  .panel  {
     top: 3.5%;
     left: 60.5%;
     height: 23em;
