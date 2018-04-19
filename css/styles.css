@@ -90,12 +90,12 @@ header>.container .row {
 #carousel {
   position: relative;
   margin: 0 auto;
-	margin-top: 0.2px;
-	height: 0;
-	padding-bottom: var(--slider-height-lg);
-	user-select: none;
-	background-color: #1c1c1c;
-	box-shadow: var(--box-shadow);
+  margin-top: 0.2px;
+  height: 0;
+  padding-bottom: var(--slider-height-lg);
+  user-select: none;
+  background-color: #1c1c1c;
+  box-shadow: var(--box-shadow);
 }
 
 input {
@@ -767,37 +767,37 @@ input[type=search]:not(.browser-default) {
   .img-container img {
     height: 170px;
   }
-
+	
   #carousel {
-		border: none;
-		height: 0;
-		padding-bottom: var(--slider-height-sm);
-    }
+    border: none;
+    height: 0;
+    padding-bottom: var(--slider-height-sm);
+  }
 
-    .slide_img .prev, .slide_img .next {
-        width: var(--nav-width-sm);
-    }
+  .slide_img .prev, .slide_img .next {
+    width: var(--nav-width-sm);
+  }
 
-    .slide_img .next {
-      right: 39.5%;
-    }
+  .slide_img .next {
+    right: 39.5%;
+  }
 
-    .slide_img .prev span, .slide_img .next span {
-        border: solid 12px;
-    }
+  .slide_img .prev span, .slide_img .next span {
+    border: solid 12px;
+  }
 
-    .slide_img .prev span {
-        border-color: transparent #fff transparent transparent;
-    }
+  .slide_img .prev span {
+    border-color: transparent #fff transparent transparent;
+  }
 
-    .slide_img .next span {
-        border-color: transparent transparent transparent #fff;
-    }
+  .slide_img .next span {
+    border-color: transparent transparent transparent #fff;
+  }
 
-    #nav_slide .dots {
-        width: 12px;
-        height: 12px;
-    }
+  #nav_slide .dots {
+    width: 12px;
+    height: 12px;
+  }
 
   #panel  {
     top: 3.5%;
