@@ -14,6 +14,8 @@
   <link href="css/styles.css" rel="stylesheet">
   <!-- Font Awesome Icons -->
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" media="all">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -75,12 +77,131 @@
       </div>
     </nav>
 
+    <!-- Carousel -->
+    <section class="container">
+      <div class="carousel">
+        <input type="radio" id="i1" name="images" checked>
+        <input type="radio" id="i2" name="images">
+        <input type="radio" id="i3" name="images">
+        <input type="radio" id="i4" name="images">
+        
+        <div class="slide_img" id="one">
+            <img src="assets/adam-wilson-391594-unsplash.jpg">
+            <label class="prev" for="i4"><span></span></label>
+            <label class="next" for="i2"><span></span></label>
+        </div>
+        
+        <div class="slide_img" id="two">
+            <img src="assets/meduana-6917-unsplash.jpg">
+            <label class="prev" for="i1"><span></span></label>
+            <label class="next" for="i3"><span></span></label>
+        </div>
+                
+        <div class="slide_img" id="three">
+            <img src="assets/liam-pozz-247954-unsplash.jpg">
+            <label class="prev" for="i2"><span></span></label>
+            <label class="next" for="i4"><span></span></label>
+        </div>
+    
+        <div class="slide_img" id="four">
+            <img src="assets/matt-thomason-110745-unsplash.jpg">
+            <label class="prev" for="i3"><span></span></label>
+            <label class="next" for="i1"><span></span></label>
+        </div>
+    
+        <div id="nav_slide">
+            <label for="i1" class="dots" id="dot1"></label>
+            <label for="i2" class="dots" id="dot2"></label>
+            <label for="i3" class="dots" id="dot3"></label>
+            <label for="i4" class="dots" id="dot4"></label>
+        </div>
+
+        <!-- Panel overlayed on carousel -->
+        <div class="panel">
+          <h5 class="panel-heading">Explore Travel Memories</h5>
+          <form class="p-top-bottom">
+            <div class="search-box">
+              <input type="search" placeholder="Where do you want to go?">
+              <i class="fas fa-search search-icon"></i>
+            </div>
+          </form>
+          <h6 class="popular-exp">Popular Experiences</h6>
+          <!-- Icons -->
+          <div class="panel-icons">
+            <div><a href=""><i class="small material-icons sunny-icon">wb_sunny</i><span>Beach</span></a></div>
+            <div><a href=""><i class="fas fa-anchor anchor-icon"></i><span>Cruises</span></a></div>
+            <div><a href=""><i class="fas fa-child child-icon"></i><span>Family</span></a></div>
+            <div><a href=""><i class="small material-icons landscape-icon">landscape</i><span>Adventure</span></a></div>
+          </div>
+        </div>
+    </div>
+
+    </section>
+    
+
+    <!-- Cards immediately below Carousel -->
+    <figure class="container">
+      <div class="row cards-p-top">
+        <div class="col s12 m12 l8">
+          <img class="responsive" src="assets/1438041310689.jpg">
+        </div>
+        <div class="col m2 l4"></div>
+      </div>
+    </figure>
+
+    <section class="container">
+      <div class="row">
+        
+        <div class="col s12 m6 l4 center pb-on-smaller-screen">
+          <div class="card-image">
+            <img src="assets/hike2.jpg">
+          </div>
+          <div class="card-header">
+            <p>The scandalous secrets of Vienna</p>
+          </div>
+          <div class="card-info">
+            <p>High art and imperial history make Vienna a capital of culture, but that doesn't make visiting a chore.</p>
+          </div>
+          <div class="chip white">
+            <img src="assets/jemimah.png" alt="Contact Person"><a href="#" class="chipTag"><em>Jemimah O.</em></a>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4 center pb-on-smaller-screen">
+          <div class="card-image">
+            <img src="assets/hike1.jpg">
+          </div>
+          <div class="card-header">
+            <p>Hotel room with the 'world's worst view'</p>
+          </div>
+          <div class="card-info">
+            <p>Whether it's the worst view in the world I can't say, but it is confronting and upsetting.</p>
+          </div>
+          <div class="chip white">
+            <img src="assets/mufasa.png" alt="Contact Person"><a href="#" class="chipTag"><em>MufasaOnAcid</em></a>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4 center pb-on-smaller-screen">
+          <div class="card-image">
+            <img src="assets/hike3.jpg">
+          </div>
+          <div class="card-header">
+            <p>Join Travel Memories' editor on an exclusive exotic trip</p>
+          </div>
+          <div class="card-info center">
+            <p>Experience sublime Sri Lanka - one of the world’s rapidly-emerging and most exotic destinations – on our exclusive TM Tour.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Featured Destination -->
     <section class="container">
       <div class="row">
         <div class="col s12 l8 right cancelExtras">
           <div class="row cancelExtras">
-            <header class="header">
+            <header class="header heading-top-bottom">
               <h4 class="heading">Featured Destination</h4>
             </header>
           </div>
@@ -91,26 +212,26 @@
         <div class="col s12 l4">
           <div class="row"></div>
           <div class="row">
-            <div class="col m2 l5">
+            <div class="col m2.5 l5">
               <img src="assets/1519966411035.jpg">
             </div>
-            <div class="col s2 l6">
+            <div class="col s4 l6 m3">
               <p>Letters: Why economy cabins are like pokies venues</p>
             </div>
           </div>
           <div class="row">
-            <div class="col m2 l5">
+            <div class="col m2.5 l5">
               <img src="assets/s2.jpg">
             </div>
-            <div class="col m2 l7">
-              <p>Traveller competition: Win a $25,000 luxury cruise to France</p>
+            <div class="col s4 m3 l7">
+              <p>Travel Memories competition: Win a $25,000 luxury cruise to France</p>
             </div>
           </div>
           <div class="row">
-            <div class="col m2 l5">
+            <div class="col m2.5 l5">
               <img src="assets/s3.jpg">
             </div>
-            <div class="col m2 l6">
+            <div class="col s4 m3 l6">
               <p>Secrets of the South Pacific</p>
             </div>
           </div>
@@ -122,12 +243,12 @@
 
     <section class="container">
 
-      <div class="header center">
-        <h4 class="heading">Clime Every Mountain</h4>
+      <div class="header center heading-top-bottom">
+        <h4 class="heading">Climb Every Mountain</h4>
       </div>
 
       <div class="row">
-        <div class="col s12 m6 l4 center">
+        <div class="col s12 m6 l4 center pb-on-smaller-screen">
           <div class="card-image">
             <img src="assets/hike1.jpg">
           </div>
@@ -138,11 +259,11 @@
             <p>Hikers swarm up its slopes like invading armies, with about 35,000 people a year attempting to reach the 5895-metre summit.</p>
           </div>
           <div class="chip white">
-            <img src="assets/jemimah.png" alt="Contact Person"><a href="#" class="chipTag"><em>jemimah O.</em></a>
+            <img src="assets/jemimah.png" alt="Contact Person"><a href="#" class="chipTag"><em>Jemimah O.</em></a>
           </div>
         </div>
 
-        <div class="col s12 m6 l4 center">
+        <div class="col s12 m6 l4 center pb-on-smaller-screen">
           <div class="card-image">
             <img src="assets/hike2.jpg">
           </div>
@@ -150,19 +271,19 @@
             <p>Have tourists ruined the 'finest walk in the world'?</p>
           </div>
           <div class="card-info">
-            <p>I wanted to walk untill i was physically exhausted and mentally calm. And i wanted to walk alone.</p>
+            <p>I wanted to walk until i was physically exhausted and mentally calm. And i wanted to walk alone.</p>
           </div>
           <div class="chip white">
             <img src="assets/mufasa.png" alt="Contact Person"><a href="#" class="chipTag"><em>MufasaOnAcid</em></a>
           </div>
         </div>
 
-        <div class="col s12 m6 l4 center">
+        <div class="col s12 m6 l4 center pb-on-smaller-screen">
           <div class="card-image">
             <img src="assets/hike3.jpg">
           </div>
           <div class="card-header">
-            <p>Why everyone should, and can, clime Australia's highest mountain</p>
+            <p>Why everyone should, and can, climb Australia's highest mountain</p>
           </div>
           <div class="card-info center">
             <p>There's a fine line between being merely uprepared and being incredibly stupid.</p>
@@ -174,16 +295,53 @@
       </div>
     </section>
 
+<<<<<<< HEAD
     <div class="space"></div>
+=======
+    <!-- The Big Picture -->
+    <section class="container">
+      <div class="row">
+        <div class="col s12 l8 left">
+          <div class="row cancelExtras">
+            <header class="header heading-top-bottom">
+              <h4 class="heading">The Big Picture</h4>
+            </header>
+          </div>
+          <div class="row">
+            <img class="responsive" src="assets/1438041310689.jpg">
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="row"></div>
+          <div class="row pl-mt cards-p-top">
+            <div class="col m2.5 l5">
+              <img src="assets/1519966411035.jpg">
+            </div>
+            <div class="col s4 l7 m3">
+              <p>Readers' tips: I did not use my credit card travel insurance and I learned this</p>
+            </div>
+          </div>
+          <div class="row pl-mt">
+            <div class="col m2.5 l5">
+              <img src="assets/s3.jpg">
+            </div>
+            <div class="col s4 m3 l7">
+              <p>I had never understood dungeons and dragons and now I do</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+>>>>>>> development
 
     <!-- Deals of the week -->
     <section class="container">
-      <header class="header">
+      <header class="header heading-top-bottom">
         <h4 class="heading">Deals of the week</h4>
       </header>
       <div class="row">
         <div class="col s12 m12 l8">
-          <img src="assets/d1.jpg">
+          <img class="responsive" src="assets/d1.jpg">
         </div>
       </div>
       <div class="row">
@@ -308,42 +466,42 @@
 
     <!-- @__Travel.Memories__ on Instagram -->
     <section class="container">
-      <header class="hr-lines">
-        <h4 class="absolute center">@__Travel.Memories__ on Instagram</h4>
+      <header class="header center heading-top-bottom">
+        <h4 class="heading">@__Travel.Memories__ on Instagram</h4>
       </header>
 
       <div class="responsive">
         <div>
           <div class="img-container">
-            <img class="img" src="assets/liam-pozz-247954-unsplash.jpg" alt="" width="300px" height="250px">
+            <img src="assets/liam-pozz-247954-unsplash.jpg" alt="">
           </div>
           <div class="img-container">
-            <img class="img" src="assets/agustin-diaz-185846-unsplash.jpg" alt="" width="300px" height="250px">
+            <img src="assets/agustin-diaz-185846-unsplash.jpg" alt="">
           </div>
           <div class="img-container">
-            <img class="img" src="assets/adam-wilson-391594-unsplash.jpg" alt="" width="300px" height="250px">
-          </div>
-        </div>
-        <div>
-          <div class="img-container">
-            <img class="img" src="assets/matt-thomason-110745-unsplash.jpg" alt="" width="300px" height="250px">
-          </div>
-          <div class="img-container">
-            <img class="img" src="assets/meduana-6917-unsplash.jpg" alt="" width="300px" height="250px">
-          </div>
-          <div class="img-container">
-            <img class="img" src="assets/instagram-com-jamie_fenn-276420-unsplash.jpg" alt="" width="300px" height="250px">
+            <img src="assets/adam-wilson-391594-unsplash.jpg" alt="">
           </div>
         </div>
         <div>
           <div class="img-container">
-            <img class="img" src="assets/julentto-photography-364077-unsplash.jpg" alt="" width="300px" height="250px">
+            <img src="assets/matt-thomason-110745-unsplash.jpg" alt="">
           </div>
           <div class="img-container">
-            <img class="img" src="assets/drif-riadh-389081-unsplash.jpg" alt="" width="300px" height="250px">
+            <img src="assets/meduana-6917-unsplash.jpg" alt="">
           </div>
           <div class="img-container">
-            <img class="img" src="assets/jesse-bowser-5659-unsplash.jpg" alt="" width="300px" height="250px">
+            <img src="assets/instagram-com-jamie_fenn-276420-unsplash.jpg" alt="">
+          </div>
+        </div>
+        <div>
+          <div class="img-container">
+            <img src="assets/julentto-photography-364077-unsplash.jpg" alt="">
+          </div>
+          <div class="img-container">
+            <img src="assets/drif-riadh-389081-unsplash.jpg" alt="">
+          </div>
+          <div class="img-container">
+            <img src="assets/jesse-bowser-5659-unsplash.jpg" alt="">
           </div>
         </div>
       </div>
@@ -352,28 +510,50 @@
   </main>
 
   <footer>
+    <div class="p-top-bottom">
+
     <!-- Follow Us -->
     <section id="follow-us">
       <div>
-        <div>
-          <hr class="hr-left inline">
-          <h4 class="center inline header">Follow Us</h4>
-          <hr class="hr-right inline">
-        </div>
+        <header class="header center">
+          <h4 class="heading">Follow Us</h4>
+        </header>
 
         <!-- Social Media Icons -->
         <div class="socialLinks2 container row">
-          <ul class="center">
-            <li><a href="#"><i class="fab fa-facebook-f fbIcon"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter twIcon"></i></a></li>
-            <li><a href="#"><i class="fab fa-pinterest pnIcon"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram insIcon"></i></a></li>
-            <li><a href="#"><i class="fab fa-google-plus-g gplusIcon"></i></a></li>
-            <li><a href="#"><i class="fas fa-newspaper nwsIcon"></i></a></li>
-          </ul>
+          <div class="socialIcon-container">
+            <div>
+              <a href="#"><i class="fab fa-facebook-f fbIcon"></i></a>
+              <span>Facebook</span>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-twitter twIcon"></i></a>
+              <span>Twitter</span>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-pinterest pnIcon"></i></a>
+              <span>Pinterest</span>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-instagram insIcon"></i></a>
+              <span>Instagram</span>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-google-plus-g gplusIcon"></i></a>
+              <span>Google+</span>
+            </div>
+            <div>
+              <a href="#"><i class="fas fa-newspaper nwsIcon"></i></a>
+              <span>Newsletter</span>
+            </div>
+          </div>
         </div>
+
       </div>
     </section>
+
+    </div>
+    
 
     <!-- Footer Links -->
     <section>
@@ -381,8 +561,9 @@
         <a href="#!" class="brand-logo">Travel Memories</a>
       </div>
 
-      <div class="container">
+      <div class="TM-links">
         <div class="row text-align-left">
+          <div class="col s0.5"></div>
           <div class="col s2">
             <h5 class="footer-link-heading">Top Cities</h5>
             <ul>
@@ -431,7 +612,7 @@
             </ul>
           </div>
           <div class="col s0.5"></div>
-          <div class="col s2.5">
+          <div class="col s2">
             <h5 class="footer-link-heading">Airline Reviews</h5>
             <ul>
               <li><a href="">Qantas Premium Economy</a></li>
@@ -444,46 +625,51 @@
           </div>
         </div>
 
-        <p class="center p-bottom">Explore all our sites covering entertainment, food, lifestyle and parenting</p>
+        <p class="center explore-sites-paragraph">Explore all our sites covering entertainment, food, lifestyle and parenting</p>
 
-        <section class="center">
-          <ul>
-            <li class="inline">goodfood</li>
-            <li class="inline">EssentialBaby</li>
-            <li class="inline">EssentialKids</li>
-            <li class="inline">Find a babysitter</li>
-            <li class="inline">American Express Open Air Cinemas</li>
+        <section>
+          <ul class="explore-sites-links">
+            <li><a href=""><i class="fas fa-utensils goodfood-icon"></i>good<span class="food-text">food</span></a></li>
+            <li><a href=""><i class="fab fa-twitter essentialbaby-icon"></i><span class="grayed-text">Essential</span><span class="baby-text">baby</span></a></li>
+            <li><a href=""><i class="fab fa-telegram-plane essentialkids-icon"></i><span class="grayed-text">Essential</span><span class="kids-text">kids</span></a></li>
+            <li><a href=""><span class="grayed-text">Find a </span><span class="babysitter-text">babysi<span class="grayed-text">t</span><span class="grayed-text"><small>t</small></span>er</span></a></li>
+            <li class="openair-express-li"><a href=""><span class="markovian-express-text">MARKOVIAN EXPRESS<br></span><span class="openair-text">OPENAIR<br></span><span>CINEMAS</span></a></li>
           </ul>
         </section>
       </div>
 
       <hr>
 
-      <div class="center">
-        <a href="">About us</a>|
-        <a href="">Contact us</a>|
-        <a href="">Newsletter</a>|
-        <a href="">Advertise with us</a>|
-        <a href="">Privacy statement</a>|
-        <a href="">Terms of use</a>|
-        <a href="">Sitemap</a>|
-        <a href="">Feedback</a>
+      <div class="links-before-cpright">
+        <ul>
+          <li><a href="">About us</a></li>
+          <li><a href="">Contact us</a></li>
+          <li><a href="">Newsletter</a></li>
+          <li><a href="">Advertise with us</a></li>
+          <li><a href="">Privacy statement</a></li>
+          <li><a href="">Terms of use</a></li>
+          <li><a href="">Sitemap</a></li>
+          <li><a href="">Feedback</a></li>
+        </ul>
       </div>
 
-      <div class="center spacing">
-        <a href="">The Sydney Morning Herald</a>|
-        <a href="">The Age</a>|
-        <a href="">Adzuna</a>|
-        <a href="">Domain</a>|
-        <a href="">Drive</a>|
-        <a href="">RSVP</a>|
-        <a href="">Essential Baby</a>|
-        <a href="">APM</a>
-        <a href="">Weatherzone</a>|
-        <a href="">Commercial Realestate</a>
+      <div class="links-before-cpright2">
+        <ul>
+          <li><a href="" class="blue-circle"><span>Toucans</span> Six</a></li>
+          <li><a href="">The Sydney Morning Herald</a></li>
+          <li><a href="">The Age</a></li>
+          <li><a href="">Adzuna</a></li>
+          <li><a href="">Domain</a></li>
+          <li><a href="">Drive</a></li>
+          <li><a href="">RSVP</a></li>
+          <li><a href="">Essential Baby</a></li>
+          <li><a href="">APM</a></li>
+          <li><a href="">Weatherzone</a></li>
+          <li><a href="">Commercial Realestate</a></li>
+        </ul>
       </div>
 
-      <div class="center copyright">
+      <div class="copyright">
         Copyright &copy; 2018 Toucans-6
       </div>
     </section>
