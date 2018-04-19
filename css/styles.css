@@ -5,7 +5,7 @@
 /* Variable Declarations */
 
 :root {
-  --slider-height-lg: 40.5%;  /* Slider height - small display */
+  --slider-height-lg: 40.5%;  /* Slider height - large display */
   --slider-height-sm: 55%; 	/* Slider height - small display */
   --nav-width-lg: 6%;	 /* Previous and Next width - large display */
   --nav-width-sm: 7%;  /* Previous and Next width - small display */
