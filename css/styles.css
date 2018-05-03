@@ -9,7 +9,7 @@
   --slider-height-sm: 55%; 	/* Slider height - small display */
   --nav-width-lg: 6%;	 /* Previous and Next width - large display */
   --nav-width-sm: 7%;  /* Previous and Next width - small display */
-
+  
   --box-shadow: 0 11px 22px rgba(0, 0, 0, 0.20), 0 7px 7px rgba(0, 0, 0, 0.24);
   --brown: #795548;
   --blue: #2196F3;
@@ -55,10 +55,7 @@ body, html {
   margin: 0;
   padding: 0;
 }
-.space {
-  width: 100%;
-  padding: 15px 0;
-}
+
 /* Header Styles */
 
 header>.container .row {
@@ -180,7 +177,7 @@ header>.container .row {
   transition: .4s;
   cursor: pointer;
 }
-
+  
 #dot1:hover,
 #i1:checked ~ #nav_slide #dot1 {
   background: var(--brown);
@@ -596,95 +593,6 @@ p {
   color: #3eaaba !important;
 }
 
-/* Deals Of The Week */
-
-/* Where To Go This Month */
-#test-swipe-1,#test-swipe-2,#test-swipe-3,#test-swipe-4,#test-swipe-5,
-#test-swipe-6,#test-swipe-7,#test-swipe-8,#test-swipe-9,#test-swipe-10,
-#test-swipe-11,#test-swipe-12 {
-  height: 300px !important;
-  padding: 0;
-  background-color: white;
-}
-.tabs-content.carousel {
-  background-color: #fff !important;
-  box-shadow: 0 0 0px #fff !important;
-  padding-bottom: 35%;
-}
-.carousel {
-  height: 100%;
-}
-.row.where2Go {
-  height: 100%;
-}
-.cardPic {
-  position: relative;
-  padding: 0;
-  margin-bottom: 0;
-  text-align: center;
-}
-.cardPic img {
-  min-width: 0;
-  min-height: 0;
-  width: 100%;
-  height: 200%;
-}
-.card-title {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  top: 0;
-  left: 0;
-}
-/* .card-title::before {
-  content: "";
-  float: left;
-  margin-bottom: -25px;
-  height: 50%;
-  width: 100%;
-} */
-.card-text {
-  text-shadow: 2px 2px 4px #000;
-  font-size: 1.5rem;
-  margin-bottom: 0;
-  line-height: 1;
-  color: #fff;
-}
-.mar {
-  padding: 0;
-  height: 50%;
-}
-.left-column {
-  display: inline-block;
-  float: left;
-  width: 25%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-.mid-column {
-  display: inline-block;
-  height: 100%;
-  width: 50%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-.right-column {
-  display: inline-block;
-  float: right;
-  width: 25%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-.card-lead {
-  line-height: 0.5;
-  margin: 0;
-}
-/* Horizontal Lines */
-
 /* Link Styles */
 
 .col a {
@@ -705,7 +613,6 @@ footer > section > div.links-before-cpright2 > ul a {
 }
 
 /* List Styling */
-
 
 .col li {
   line-height: 1;
@@ -784,7 +691,7 @@ input[type=search]:not(.browser-default) {
   color: goldenrod;
 }
 
-.baby-text, .kids-text,
+.baby-text, .kids-text, 
 .babysitter-text {
   font-style: italic;
 }
@@ -847,7 +754,7 @@ input[type=search]:not(.browser-default) {
   .img-container img {
     height: 170px;
   }
-
+	
   .carousel {
     border: none;
     height: 0;
